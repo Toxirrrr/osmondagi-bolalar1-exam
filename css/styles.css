@@ -870,4 +870,10 @@ h1, h2, h3, h4, h5, h6, p, strong {
   color: #787878;
   margin-bottom: 44px;
 }
+
+@media only screen and (max-width: 800px) {
+  .group__l-a {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

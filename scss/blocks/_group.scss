@@ -63,3 +63,49 @@
 		margin-bottom: 44px;
 	}
 }
+
+@media only screen and (max-width:800px) { 
+	.group {
+		
+		&__container {
+			
+		}
+		
+		&__inner-wrapper {
+			
+		}
+		
+		&__text {
+			
+		}
+		
+		&__header {
+			
+		}
+		
+		&__list {
+			
+		}
+		
+		&__l-a {
+			display: none;
+		}
+		
+		&__item {
+			
+		}
+		
+		&__item-img {
+
+		}
+		
+		&__item-header {
+
+		}
+		
+		&__item-text {
+
+		}
+	}
+	
+}
