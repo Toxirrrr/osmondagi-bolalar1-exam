@@ -1,0 +1,164 @@
+.about {
+    
+    padding-top: 92px;
+    
+    &__container {
+        display: flex;
+    }
+    
+    &__left {
+    }
+    
+    &__img {
+    }
+    
+    &__img-mobile {
+        display: none;
+    }
+    
+    &__right {
+        padding-left: 53.16px;
+    }
+    
+    &__header {
+        font-family: 'Bw Stretch';
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 63px;
+        text-transform: uppercase;
+        color: #222831;
+        margin-bottom: 10px;
+    }
+    // &__header::before {
+    //     position: absolute;
+    //     z-index: 1;
+    //     bottom: -100px;
+    //     content: "BIZ HAQIMIZDA";
+    //     font-family: Bw Stretch;
+    //     font-style: normal;
+    //     font-weight: 800;
+    //     font-size: 60px;
+    //     line-height: 63px;
+    //     letter-spacing: 0.04em;
+    //     color: rgba(34, 40, 49, 0.05);
+    // }
+    
+    &__text-top {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #222831;
+        max-width: 657px;
+        width: 100%;
+    }
+    
+    &__text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #00000080;
+        max-width: 638px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 59px;
+    }
+    
+    &__link {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #222831;
+        border: 2px solid black;
+        padding: 16px 82px 17px;
+    }
+}
+
+@media only screen and (max-width:1200px) { 
+    .about {
+        
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        &__left {
+            
+        }
+        
+        &__img {
+            width: 550px;
+            height: 280px;
+            
+            
+        }
+        
+        &__right {
+            padding: 0;
+        }
+        
+        &__header {
+        }
+        
+        &__text-top {
+            max-width: 500px;
+            width: 100%;
+            
+        }
+        
+        &__text {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        &__link {
+            
+        }
+    }
+    
+}
+
+@media only screen and (max-width:550px) { 
+    
+    .about {
+        
+        &__container {
+        }
+        
+        &__left {
+            justify-content: space-between;
+        }
+        
+        &__img {
+            display: none;
+        }
+        
+        &__img-mobile {
+            display: flex;
+            width: 325px;
+            height: 250px;
+        }
+        
+        &__right {
+        }
+        
+        &__header {
+        }
+        
+        &__text-top {
+        }
+        
+        &__text {
+        }
+        
+        &__link {
+        }
+    }
+}
