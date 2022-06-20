@@ -1,0 +1,149 @@
+.social {
+    
+    &__container {
+    }
+    
+    &__text {
+        font-family: 'Gilroy';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+        color: #000000;
+    }
+    &__header {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 39px;
+        color: #000000;
+    }
+    
+    &__list {
+        display: flex;
+        padding: 50px 111px 50px 108px;
+        background-color: #fff;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    &__item {
+        display: flex;
+        max-width: 227px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    &__item-wrapper {
+        margin-left: 15px;
+    }
+    
+    &__item-header {
+        font-family: 'Gilroy';
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #242424;
+    }
+    
+    &__item-text {
+        font-family: 'Gilroy';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(36, 36, 36, 0.7);
+    }
+}
+
+@media only screen and (max-width:1000px) { 
+    
+    .social {
+        
+        &__container {
+            
+        }
+        
+        &__text {
+            
+        }
+        
+        &__header {
+            
+        }
+        
+        &__list {
+            gap: 20px;
+            align-items: center;
+        }
+        
+        &__item {
+            
+        }
+        
+        &__item-wrapper {
+            
+        }
+        
+        &__item-header {
+            
+        }
+        
+        &__item-text {
+            
+        }
+        
+    }
+    
+}
+@media only screen and (max-width:732px) { 
+    
+    .social {
+        
+        &__container {
+            
+        }
+        
+        &__text {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 100%;
+            color: #000000;
+        }
+        
+        &__header {
+            font-size: 30px;
+            line-height: 100%;
+            margin-bottom: 40px;
+            margin-top: 5px;
+        }
+        
+        &__list {
+            gap: 50px;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            padding: 39px 0 39px 15px;
+        }
+        
+        &__item {
+            
+        }
+        
+        &__item-wrapper {
+            
+        }
+        
+        &__item-header {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        
+        &__item-text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        
+    }
+    
+}
