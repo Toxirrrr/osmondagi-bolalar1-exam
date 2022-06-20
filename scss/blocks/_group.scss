@@ -84,7 +84,7 @@
 		}
 		
 		&__list {
-			
+			gap: 15px;
 		}
 		
 		&__l-a {
@@ -92,19 +92,30 @@
 		}
 		
 		&__item {
-			
+			justify-content: center;
+			width: 160px;
+			padding: 74px 6px 24px 2px ;
 		}
 		
 		&__item-img {
-
+			width: 84px;
+			height: 84px;
+			margin-top: -170px;
+			margin-left: 33px;
+		}
+		&__item-img-sotset {
+			width: 131px;
+			height: 34px;
 		}
 		
 		&__item-header {
-
+			font-size: 14px;
+			line-height: 17px;
 		}
 		
 		&__item-text {
-
+			font-size: 12px;
+			line-height: 14px;
 		}
 	}
 	

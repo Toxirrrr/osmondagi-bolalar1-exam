@@ -872,8 +872,36 @@ h1, h2, h3, h4, h5, h6, p, strong {
 }
 
 @media only screen and (max-width: 800px) {
+  .group__list {
+    gap: 15px;
+  }
   .group__l-a {
     display: none;
+  }
+  .group__item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 160px;
+    padding: 74px 6px 24px 2px;
+  }
+  .group__item-img {
+    width: 84px;
+    height: 84px;
+    margin-top: -170px;
+    margin-left: 33px;
+  }
+  .group__item-img-sotset {
+    width: 131px;
+    height: 34px;
+  }
+  .group__item-header {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .group__item-text {
+    font-size: 12px;
+    line-height: 14px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
