@@ -112,9 +112,11 @@
     &__r-list {
         display: flex;
         gap: 30px;
+        margin: 0;
     }
     
     &__r-item {
+        margin-bottom: 56px;    
         
     }
     
@@ -134,24 +136,23 @@
     }
 }
 
-@media only screen and (max-width:490px) { 
+@media only screen and (max-width:1400px) { 
     
     .play {
-
+        
         &__container {
             
         }
         
         &__inner-wrapper {
-        
         }
         
         &__wrapper-text {
-        
+            
         }
         
         &__wrapper-text-color {
-        
+            
         }
         
         &__link {
@@ -159,7 +160,9 @@
         }
         
         &__wrapper {
-        
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         
         &__left {
@@ -171,36 +174,42 @@
         }
         
         &__l-header {
-        
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 24px;
+            margin-top: 15px;
+            margin-bottom: 10px;
         }
         
         &__l-text {
-        
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
         }
         
         &__left-wrapper {
-        
+            display: none;
         }
         
         &__l-wrapper-inner {
-        
-        }
-        
-        &__l-wrapper-text {
-        
-        }
-        
-        &__l-wrapper-header {
-        
-        }
-        
-        &__right {
             
         }
         
+        &__l-wrapper-text {
+            
+        }
+        
+        &__l-wrapper-header {
+            
+        }
+        
+        &__right {
+            padding-top: 50px;
+        }
+        
         &__r-list {
-            margin: 0;
             padding: 0;
+            margin: 0;
         }
         
         &__r-item {
@@ -208,7 +217,7 @@
         }
         
         &__r-item-img {
-        
+            
         }
         
         &__r-item-text {
@@ -216,5 +225,5 @@
         }
         
     }
-        
+    
 }

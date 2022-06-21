@@ -1,0 +1,19 @@
+.footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #222831;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 110%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}

@@ -1,0 +1,215 @@
+.shop {
+    background-image: url(./../images/shop__bgi.svg);
+    background-repeat: no-repeat;
+    background-position: calc( 50% + 440px) 142px;    
+    padding-top: 300px;
+    &__container {
+    }
+    
+    &__top-wrapper {
+    }
+    
+    &__top-header {
+        font-family: 'Gilroy';
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 110%;
+        color: #000000;
+    }
+    
+    &__top-text {
+        font-family: 'Gilroy';
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 10px;
+        margin-bottom: 62px;
+        
+    }
+    
+    &__inner-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    &__inner-img {
+    }
+    
+    &__inner-header {
+        font-family: 'Gilroy';
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 110%;
+        color: #000000;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    
+    &__list {
+        display: flex;
+        background-color: #fff;
+        padding: 45px 108px 45px 50px;
+    }
+    
+    &__item{ 
+        position: relative;
+        margin-right: 85px;
+        margin-left: 35px;
+    }
+    
+    &__item::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        background-image: url(./../images/shop__bgi-2.svg);
+        background-repeat: no-repeat;
+        top: 90px;
+        left: -3px;
+        width: 19px;
+        height: 19px;
+        color: #2F48BE;
+    }
+    
+    &__item::after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        background-image: url(./../images/shop_bgi-1.svg);
+        background-repeat: no-repeat;
+        top: 55px;
+        left: -4px;
+        width: 19px;
+        height: 19px;
+        color: #2F48BE;
+    }
+    
+    &__item-header {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+        
+    }
+    
+    &__item-text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin: 0;
+        margin-top: 27px;
+        margin-bottom: 18px;
+        margin-left: 20px;
+        
+    }
+    &__item-number {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    
+    &__item-wrapper-text {
+        display: flex;
+        margin-left: 20px;
+        justify-content: space-between;
+        
+    }
+    
+    &__item-link {
+        text-decoration: underline;
+        color: #2F48BE;
+    }
+    
+    &__span {
+        display: inline-block;
+        width: 0.01px;
+        height: 84px;
+        border: 1px solid #DCDCDC;
+        background-color: #DCDCDC;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:1306px) { 
+    
+    .shop {
+        background-image: none;
+        &__container {
+        }
+
+        
+        &__top-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        &__top-header {
+        
+        }
+        
+        &__top-text {
+            width: 80%;
+        }
+        
+        &__inner-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        
+        &__inner-img {
+        
+        }
+        
+        &__inner-header {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        &__item{ 
+            max-width: 330px;
+        }
+        
+        &__item-header {
+            
+        }
+        
+        &__item-text {
+            
+        }
+
+        &__item-number {
+
+        }
+        
+        &__item-wrapper-text {
+            
+        }
+        
+        &__item-link {
+
+        }
+        
+        &__span {
+            display: none;
+        }
+
+    }
+
+}
